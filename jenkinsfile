@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/srinivasgolla600/devops-mini-project.git'
+                checkout scm
             }
         }
 
